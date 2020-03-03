@@ -1,0 +1,24 @@
+{
+  "name": "cloudexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myserver.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binladen36/CloudExample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binladen36/CloudExample/issues"
+  },
+  "homepage": "https://github.com/binladen36/CloudExample#readme"
+}
