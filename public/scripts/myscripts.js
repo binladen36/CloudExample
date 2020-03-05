@@ -1,4 +1,5 @@
-function Hi()
+function Welcome()
 {
-    alert('Hello Goodbye & Hello')
+    alert('Welcome Back')
 }
+

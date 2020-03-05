@@ -21,10 +21,10 @@ app.get('/form',function(req,res)
 res.render('form');
 });
 
-app.post('/saveForm',(req,res)=>
+app.get('/about',function(req,res)
 {
-    //lay thong tin tu txtBox la yourName
-    const yourName= req.body.yourName;
-    res.render('confirm',{name:yourName})
-})
+res.render('about');
+});
+
+
 var server=app.listen(port,function() {});
