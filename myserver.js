@@ -11,8 +11,6 @@ var port = process.env.PORT || 3000;
 var publicDir = require('path').join(__dirname,'/public');
 app.use(express.static(publicDir));
 
-
-
 //create a callback function
 app.get('/',function(req,res)
 {
@@ -31,5 +29,5 @@ app.get('/about',function(req,res)
 res.render('about');
 });
 
-//make server lisen to the port
+//make server listen to the port
 var server=app.listen(port,function() {});
