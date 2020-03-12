@@ -29,5 +29,10 @@ app.get('/about',function(req,res)
 res.render('about');
 });
 
+app.get('/head',function(req,res)
+{
+res.render('head');
+});
+
 //make server listen to the port
 var server=app.listen(port,function() {});
